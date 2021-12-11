@@ -112,4 +112,4 @@
 	LastName ve City bilgilerini listeleyen sorguyu yazınız*/
 	SELECT FirstName,LastName,City
 	FROM customers
-	WHERE Lastname like "Sch%" Lastname like"Go%" ;
+	WHERE Lastname like "Sch%" OR Lastname like"Go%" ;
